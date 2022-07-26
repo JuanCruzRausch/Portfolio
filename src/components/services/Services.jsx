@@ -31,7 +31,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Developmet of E-commerce</p>
+              <p>Development of E-commerce</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
