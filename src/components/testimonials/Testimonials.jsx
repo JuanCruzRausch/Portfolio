@@ -38,10 +38,13 @@ const Testimonials = () => {
             and qualities desired in every programmer.
           </small>
           <div className="socials_cont">
-            <a href="https://www.linkedin.com/in/juan-mateo-buccolini/">
+            <a
+              href="https://www.linkedin.com/in/juan-mateo-buccolini/"
+              target="_blank"
+            >
               <BsLinkedin />
             </a>
-            <a href="https://github.com/JMBuccolini">
+            <a href="https://github.com/JMBuccolini" target="_blank">
               <BsGithub />
             </a>
           </div>
@@ -61,10 +64,13 @@ const Testimonials = () => {
             did a magnificent job and was a great mentor and partner.
           </small>
           <div className="socials_cont">
-            <a href="https://www.linkedin.com/in/esteban-puentes-183600192/overlay/background-image/">
+            <a
+              href="https://www.linkedin.com/in/esteban-puentes-183600192/overlay/background-image/"
+              target="_blank"
+            >
               <BsLinkedin />
             </a>
-            <a href="https://github.com/esteban2841">
+            <a href="https://github.com/esteban2841" target="_blank">
               <BsGithub />
             </a>
           </div>
@@ -79,10 +85,13 @@ const Testimonials = () => {
             you really want to have on your team.
           </small>
           <div className="socials_cont">
-            <a href="https://www.linkedin.com/in/francisco-lubo-dev/">
+            <a
+              href="https://www.linkedin.com/in/francisco-lubo-dev/"
+              target="_blank"
+            >
               <BsLinkedin />
             </a>
-            <a href="https://github.com/franciscolubo">
+            <a href="https://github.com/franciscolubo" target="_blank">
               <BsGithub />
             </a>
           </div>
