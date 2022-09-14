@@ -18,6 +18,7 @@ const Testimonials = () => {
 
       <Swiper
         pagination={true}
+        spaceBetween={30}
         modules={[Pagination]}
         className="container testimonials_container"
       >
