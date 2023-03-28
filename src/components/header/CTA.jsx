@@ -1,6 +1,6 @@
 import React from "react";
-import CVEng from "../../assets/CV ingles.pdf";
-import CVSpa from "../../assets/CV Español.pdf";
+import CVEng from "../../assets/English CV - Juan Rausch.pdf";
+import CVSpa from "../../assets/Español CV - Juan Rausch.pdf";
 
 const CTA = () => {
   return (
