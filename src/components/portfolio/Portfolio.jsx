@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/project1.jpeg";
 import IMG2 from "../../assets/project2.jpeg";
 import IMG3 from "../../assets/project3.jpeg";
+import IMG4 from "../../assets/project4.jpeg";
 import { BsGithub } from "react-icons/bs";
 import { RiPagesLine } from "react-icons/ri";
 
@@ -77,6 +78,30 @@ const Portfolio = () => {
               </a>
               <a
                 href="http://posadabrillodeluna.com.ar/"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                <RiPagesLine className="icons-port" /> Live Demo
+              </a>
+            </div>
+          </div>
+        </article>{" "}
+        <article className="portfolio_item">
+          <div className="portfolio_item-img">
+            <img src={IMG4} alt="img4" />
+          </div>
+          <div className="noimg">
+            <h3>Mercado Precio</h3>
+            <div className="portfolio_item-cta">
+              <a
+                href="https://github.com/JuanCruzRausch/MercadoPrecio"
+                className="btn"
+                target="_blank"
+              >
+                <BsGithub className="icons-port" /> GitHub
+              </a>
+              <a
+                href="https://mercado-precio.vercel.app/"
                 className="btn btn-primary"
                 target="_blank"
               >

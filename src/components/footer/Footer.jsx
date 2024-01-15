@@ -1,8 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { FiTwitter } from "react-icons/fi";
-import { BsLinkedin } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
+import { BsInstagram, BsLinkedin, BsTwitterX } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -41,7 +39,7 @@ const Footer = () => {
           <BsLinkedin />
         </a>
         <a href="https://twitter.com/CruzRausch">
-          <FiTwitter />
+          <BsTwitterX />
         </a>
       </div>
       <div className="footer_copyright">
